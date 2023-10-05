@@ -3,6 +3,7 @@
 import Image from "next/image";
 import ProfileImage from "../public/sayedaPicture.jpeg";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -51,6 +52,14 @@ const Introduction = () => {
         responsive digital interfaces. I craft seamless user experiences to
         bring websites to life.
       </motion.p>
+      <div className="bg-gray-900 text-white px-2 py-2 rounded-full ">
+        <Link href="#contact">Contact Me</Link>
+      </div>
+      <div className="bg-white px-2 py-2 rounded-full">
+        <a href="" className="">
+          Download Cv
+        </a>
+      </div>
     </section>
   );
 };
