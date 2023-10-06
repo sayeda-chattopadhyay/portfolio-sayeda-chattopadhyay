@@ -42,7 +42,7 @@ const Introduction = () => {
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ const Introduction = () => {
         dedicated to transforming creative designs into captivating and
         responsive digital interfaces. I craft seamless user experiences to
         bring websites to life.
-      </motion.p>
+      </motion.h1>
       <motion.div
         className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
