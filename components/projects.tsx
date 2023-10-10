@@ -5,7 +5,7 @@ import Project from "@/components/project";
 
 const projects = () => {
   return (
-    <section>
+    <section id="projects" className="mb-28 scroll-mt-28">
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
