@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import ProfileImage from "../public/sayedaPicture.jpeg";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { BsLinkedin } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
@@ -34,7 +34,7 @@ const Introduction = () => {
             transition={{
               type: "spring",
               stiffness: 125,
-              delay: 0.1,
+              delay: 0.2,
               duration: 0.7,
             }}
           >
@@ -57,7 +57,7 @@ const Introduction = () => {
         bring websites to life.
       </motion.h1>
       <motion.div
-        className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -75,7 +75,7 @@ const Introduction = () => {
 
         <a
           href="/CV.pdf download"
-          className=" group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110 active:-scale-105 transition border border-black/10"
+          className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110 active:-scale-105 transition border border-black/10"
         >
           Download Cv
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

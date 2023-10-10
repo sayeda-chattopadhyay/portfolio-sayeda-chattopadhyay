@@ -33,19 +33,19 @@ export const projectsData = [
   {
     title: "Blog website",
     description: "lorem picsum",
-    tags: ["Html, Css, javascript"],
+    tags: ["Html", "Css", "javascript"],
     imageUrl: blogWebsite,
   },
   {
     title: "E-commerce website",
     description: "lorem picsum",
-    tags: ["Html, Css, javascript"],
+    tags: ["Html", "Css", "javascript"],
     imageUrl: eCommerceWebsite,
   },
   {
     title: "Venue Booking Website",
     description: "lorem picsum",
-    tags: ["Html, Css, javascript, React, Taiwind"],
+    tags: ["Html", "Css", "javascript", "React", "Taiwind"],
     imageUrl: hotelWebsite,
   },
 ] as const;
