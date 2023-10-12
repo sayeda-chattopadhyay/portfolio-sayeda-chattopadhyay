@@ -24,10 +24,6 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const projectsData = [
@@ -52,7 +48,8 @@ export const projectsData = [
   },
   {
     title: "Holidaze",
-    description: "lorem picsum",
+    description:
+      "This vacation-oriented website serves as a dual-purpose platform, enabling users to both lease their venues and reserve accommodations for their vacations. It's essential to highlight that, owing to API restrictions, user registration mandates the use of a @stud.noroff.no email address. Comprehensive guidelines for registration and navigating the website are available in the project's readme file.",
     tags: ["Html", "Css", "javascript", "React", "Taiwind"],
     imageUrl: hotelWebsite,
     gitHubUrl: "https://github.com/sayeda-chattopadhyay/holidaze",
