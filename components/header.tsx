@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -7,6 +7,14 @@ import clsx from "clsx";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState("Home");
+
+  useEffect(() => {
+    // Scroll to the section with the given hash when activeSection changes
+    const targetElement = document.getElementById(activeSection.toLowerCase());
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [activeSection]);
 
   return (
     <header className="z-[999] relative">

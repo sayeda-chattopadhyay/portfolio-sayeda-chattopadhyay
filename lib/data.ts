@@ -30,7 +30,7 @@ export const projectsData = [
   {
     title: "My Baking Desire",
     about: "Blog website",
-    description: "Blog website",
+    description:  "This vacation-oriented website serves as a dual-purpose platform, enabling users to both lease their venues and reserve accommodations for their vacations. It's essential to highlight that, owing to API restrictions, user registration mandates the use of a @stud.noroff.no email address. Comprehensive guidelines for registration and navigating the website are available in the project's readme file.",
     tags: ["Html", "Css", "javascript"],
     imageUrl: blogWebsite,
     gitHubUrl:
@@ -40,7 +40,7 @@ export const projectsData = [
 
   {
     title: "la-boutique",
-    description: "lorem picsum",
+    description:  "This vacation-oriented website serves as a dual-purpose platform, enabling users to both lease their venues and reserve accommodations for their vacations. It's essential to highlight that, owing to API restrictions, user registration mandates the use of a @stud.noroff.no email address. Comprehensive guidelines for registration and navigating the website are available in the project's readme file.",
     tags: ["Html", "Css", "javascript", "React", "Bootstrap"],
     imageUrl: eCommerceWebsite,
     gitHubUrl: "https://github.com/sayeda-chattopadhyay/la-boutique",
@@ -57,7 +57,7 @@ export const projectsData = [
   },
   {
     title: "BidAbhi",
-    description: "Auction Website",
+    description:  "This vacation-oriented website serves as a dual-purpose platform, enabling users to both lease their venues and reserve accommodations for their vacations. It's essential to highlight that, owing to API restrictions, user registration mandates the use of a @stud.noroff.no email address. Comprehensive guidelines for registration and navigating the website are available in the project's readme file.",
     tags: ["Html", "Css", "javascript", "Sass", "Bootstrap"],
     imageUrl: auctionWebsite,
     gitHubUrl:
@@ -77,4 +77,6 @@ export const skillsData = [
   "Tailwind",
   "Bootstrap",
   "Framer Motion",
+  "Figma",
+  "Adobe-"
 ] as const;
