@@ -81,7 +81,7 @@ const Introduction = () => {
         </Link>
 
         <a
-          href="/SayedaChattopadhyayCV.pdf"
+          href="/sayedaChattopadhyay.pdf"
           download
           className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110  transition border border-black/10 dark:bg-white/10"
         >
