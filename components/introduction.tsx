@@ -81,7 +81,7 @@ const Introduction = () => {
         </Link>
 
         <a
-          href="/SayedaChattopadhyay.pdf"
+          href="/SayedaChattopadhyayCV.pdf"
           download
           className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110  transition border border-black/10 dark:bg-white/10"
         >
@@ -90,7 +90,7 @@ const Introduction = () => {
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/sayedac/"
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.15] hover:text-gray-950  active:-scale-[1.15] transition border border-black/10 dark:bg-white/70"
         >
@@ -98,7 +98,7 @@ const Introduction = () => {
         </a>
 
         <a
-          href="https://github.com"
+          href="https://github.com/sayeda-chattopadhyay"
           target="_blank"
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.25rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:-scale-105 transition border border-black/10 dark:bg-white/70"
         >
