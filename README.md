@@ -1,7 +1,5 @@
 # Portfolio
 
-![Landing Page Preview](/src/assets/images/landingpage.jpg)
-
 ## Table Of Content
 
 - [About](#about)
@@ -24,7 +22,6 @@ The webpage as the following functionalities :
 - users can also see the projects as hosted websites as deployed in Netlify
 - users can contact me via email
 - users can download my CV as pdf
-
 
 ## Tools
 
@@ -50,7 +47,6 @@ Currently, two official plugins are available:
 ## Contributing
 
 Contact if you face any issues and if you want to suggest improvements and changes.
-
 
 ## Bio
 

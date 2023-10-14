@@ -5,8 +5,8 @@ const Footer = () => {
         &copy; 2023 Sayeda Chattopadhyay, All rights reserved.
       </p>
       <p className="text-sm">
-        The website is build with Next.js, React, Typescript, Tailwind CSS,
-        Framer motion and hosting on Netlify.
+        The website is build with Next.js, React, Typescript, Tailwind CSS and
+        Framer motion.
       </p>
     </footer>
   );
