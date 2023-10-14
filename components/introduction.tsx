@@ -11,7 +11,10 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const Introduction = () => {
   return (
-    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -51,10 +54,14 @@ const Introduction = () => {
           duration: 0.2,
         }}
       >
-        <span className="font-bold">Hi,</span> I am a Front-End Developer,
-        dedicated to transforming creative designs into captivating and
-        responsive digital interfaces. I craft seamless user experiences to
-        bring websites to life.
+        <span className="font-bold">Greetings ! </span>I am{" "}
+        <span className="text-xl text-[#8e3b99] dark:text-white/90">
+          Sayeda Chattopadhyay
+        </span>
+        , a Front-End Developer and UX Designer. Delighted to welcome you to my
+        portfolio. I specialize in creating seamless user experiences that
+        breathe life into websites. Explore my portfolio to witness the fusion
+        of design and functionality.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
@@ -74,8 +81,9 @@ const Introduction = () => {
         </Link>
 
         <a
-          href="/CV.pdf download"
-          className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110 active:-scale-105 transition border border-black/10 dark:bg-white/10"
+          href="/SayedaChattopadhyay.pdf"
+          download
+          className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110  transition border border-black/10 dark:bg-white/10"
         >
           Download Cv
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
