@@ -13,30 +13,30 @@
 
 ## About
 
-This a portfolio website created as a final assignment for the front end development course at Noroff. This personal portfolio contains 3 projects as responsive cards with link to the github repositries and live demo in netlify.
+This serves as my personal portfolio, showcasing three projects from a collection I've developed throughout my Front-end development studies. Each project includes links to its respective GitHub repository and a live demo hosted on Netlify.
 
 ## Functionalities
 
 The webpage will have the following features :
 
-- 3 projects can be viewed as cards
-- there is link to accessthe Github repositories of each of the projects
-- there is link to the hosted websites 
-- my CV can be viewed / downloaded
-- I can be contact via email
+- Display of three projects presented as cards.
+- Links to access the GitHub repositories for each project.
+- Links to visit the hosted websites of the projects.
+- View/download option for my CV.
+- Contact me via email.
 
 ## Tools
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,js,github,vscode,netlify,figma"/>
+<img src="https://skillicons.dev/icons?i=next.js,react,tailwind,js,github,vscode,netlify,figma"/>
 
+-next.js
 - React
-- Tailwind
+- Tailwind CSS
 - JavaScript
 - GitHub
 - Vscode
 - Netlify
 - Figma
-
 
 </br>
 
