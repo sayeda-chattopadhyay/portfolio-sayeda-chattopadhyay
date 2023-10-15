@@ -1,5 +1,7 @@
 # Portfolio
 
+![Homepage Preview](public/landingpage.png)
+
 ## Table Of Content
 
 - [About](#about)
@@ -15,13 +17,13 @@ This a portfolio website created as a final assignment for the front end develop
 
 ## Functionalities
 
-The webpage as the following functionalities :
+The webpage will have the following features :
 
-- a user may view a 3 projects as cards
-- a user may acees the Github repositories of each of the projects
-- users can also see the projects as hosted websites as deployed in Netlify
-- users can contact me via email
-- users can download my CV as pdf
+- 3 projects can be viewed as cards
+- there is link to accessthe Github repositories of each of the projects
+- there is link to the hosted websites 
+- my CV can be viewed / downloaded
+- I can be contact via email
 
 ## Tools
 
@@ -35,12 +37,6 @@ The webpage as the following functionalities :
 - Netlify
 - Figma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 </br>
 
