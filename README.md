@@ -27,9 +27,10 @@ The webpage will have the following features :
 
 ## Tools
 
-<img src="https://skillicons.dev/icons?i=next.js,react,tailwind,js,github,vscode,netlify,figma"/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,github,vscode,netlify,figma"/>
 
--next.js
+
+- Next.js
 - React
 - Tailwind CSS
 - JavaScript
