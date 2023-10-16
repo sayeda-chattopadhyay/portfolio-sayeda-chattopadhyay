@@ -7,7 +7,7 @@ const About = () => {
   return (
     <motion.section
       id="about"
-      className="my-28 max-w-[45rem] mx-auto sm:mb-40 scroll-mt-28 px-4 py-2"
+      className="my-28 max-w-[52rem] mx-auto sm:mb-40 scroll-mt-28 px-4 py-2"
     >
       <SectionHeading> About me</SectionHeading>
       <div className="mb-3">
@@ -21,12 +21,14 @@ const About = () => {
           affection for creating user-friendly and responsive designs. My
           journey in web design and development has equipped me with a robust
           skill set, and I am eager to further immerse myself in this dynamic
-          field.I thrive on challenges and am drawn to solving critical
-          problems. Each project is an opportunity for me to apply my skills and
-          creativity to deliver solutions that not only meet but exceed
-          expectations. As I continue to grow in this ever-evolving landscape, I
-          look forward to contributing my expertise to projects that demand
-          innovation and excellence
+          field. <br /> <br />
+          I really enjoy tackling challenges and solving tricky problems. Every
+          project is like a puzzle for me, a chance to use my skills and
+          creativity to make something even better than what people expect. I'm
+          always excited to dive into new projects and bring my best to the
+          table. <br /> <br />
+          The world of web design is always changing, and I love that! I want to
+          keep growing and learning so I can be even better at what I do.
         </motion.p>
         <motion.div
           className="max-w-[40%] mx-auto group"
