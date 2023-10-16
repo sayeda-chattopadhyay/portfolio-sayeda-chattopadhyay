@@ -1,111 +1,68 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import ProfileImage from "../public/sayedaPicture.jpeg";
-import { motion } from "framer-motion";
-import { HiDownload } from "react-icons/hi";
-import { BsLinkedin } from "react-icons/bs";
-import { BsArrowRight } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const Introduction = () => {
   return (
-    <section
-      id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    <motion.section
+      className="mb-28 sm:mb-0 scroll-mt-[100rem]"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 3.5 }}
     >
-      <div className="flex items-center justify-center">
-        <div className="relative">
+      <div className="px-8 py-4 shadow-sm w-full max-w-[100rem] flex flex-col gap-10 mt-10 items-center sm:flex-row sm:justify-between sm:gap-40 sm:mt-20">
+        {/* text */}
+        <div className="flex flex-col gap-4 items-center sm:items-start">
+          <div className="">
+            <h3 className="text-xl font-bold mb-2">
+              <span>Hi</span> ! I am{" "}
+              <span className="text-xl sm:text-3xl text-[#803363] dark:text-[#F9F1F5]">
+                Sayeda
+              </span>
+            </h3>
+            <h1 className="text-2xl sm:text-5xl font-semibold mb-4 text-gray-750">
+              UX designer & Frontend Developer
+            </h1>
+            <p className="text-md sm:text-lg">
+              A lifelong learner in love with everything fancy.
+            </p>
+            <p className="text-md sm:text-lg">
+              Delighted to welcome you to my portfolio.
+            </p>
+          </div>
+
           <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: "tween", duration: 0.1 }}
-          >
-            <Image
-              src={ProfileImage}
-              alt="profile Image"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
-          </motion.div>
-          <motion.span
-            className="absolute bottom-0 right-0 text-2xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.2,
-              duration: 0.7,
+            className="px-5 py-3 mt-8 bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+              boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
           >
-            👋
-          </motion.span>
+            <motion.a href="#projects" className="uppercase">
+              See my works
+            </motion.a>
+          </motion.div>
         </div>
+        {/* image */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.0, duration: 2.0 }}
+        >
+          <Image
+            src={ProfileImage}
+            alt="profile Image"
+            quality="95"
+            priority={true}
+            className="rounded-lg object-cover "
+          />
+        </motion.div>
       </div>
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5]"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          type: "tween",
-          duration: 0.2,
-        }}
-      >
-        <span className="font-bold">Greetings ! </span>I am{" "}
-        <span className="text-xl text-[#8e3b99] dark:text-white/90">
-          Sayeda Chattopadhyay
-        </span>
-        , a Front-End Developer and UX Designer. Delighted to welcome you to my
-        portfolio. I specialize in creating seamless user experiences that
-        breathe life into websites. Explore my portfolio to witness the fusion
-        of design and functionality.
-      </motion.h1>
-      <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
-      >
-        <Link
-          href="mailto:sayeda.b@gmail.com"
-          className="group bg-gray-900 text-white px-6 py-2 flex items-center justify-center gap-2 
-          rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-        >
-          Contact Me
-          <BsArrowRight className="opacity-60 group-hover:translate-x-1 transition" />
-        </Link>
-
-        <a
-          href="/sayedaChattopadhyay.pdf"
-          download
-          className="group bg-white px-6 py-2 rounded-full flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110  transition border border-black/10 dark:bg-white/10"
-        >
-          Download Cv
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/sayedac/"
-          target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.15] hover:text-gray-950  active:-scale-[1.15] transition border border-black/10 dark:bg-white/70"
-        >
-          <BsLinkedin />
-        </a>
-
-        <a
-          href="https://github.com/sayeda-chattopadhyay"
-          target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.25rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:-scale-105 transition border border-black/10 dark:bg-white/70"
-        >
-          <FaGithubSquare />
-        </a>
-      </motion.div>
-    </section>
+    </motion.section>
   );
 };
 
