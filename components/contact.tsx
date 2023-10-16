@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 
 const Contact = () => {
@@ -21,17 +21,17 @@ const Contact = () => {
             and high quality work. Let us make some amazing things together!
           </p>
           <div className="flex flex-col gap-4 items-start">
-            <Link
+            {/* <Link
               href="mailto:sayeda.b@gmail.com"
               className="text-lg font-bold  hover:scale-110  active:scale-105 transition dark:text-white/70"
-            ></Link>
+            ></Link> */}
             <div className="flex flex-row gap-4">
-              <a
+              <Link
                 href="mailto:sayeda.b@gmail.com"
                 className="p-4 text-gray-700  flex items-center gap-2 text-[1.5rem]  rounded-lg outline-none focus:scale-110 hover:scale-[1.15] hover:text-gray-950  active:-scale-[1.15] transition border border-black/10 dark:bg-white/70"
               >
                 <MdEmail />
-              </a>
+              </Link>
               <a
                 href="https://www.linkedin.com/in/sayedac/"
                 target="_blank"
