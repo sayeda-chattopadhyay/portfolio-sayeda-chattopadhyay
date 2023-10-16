@@ -7,7 +7,7 @@ const About = () => {
   return (
     <motion.section
       id="about"
-      className="my-28 max-w-[52rem] mx-auto sm:mb-40 scroll-mt-28 px-4 py-2"
+      className="mb-20 max-w-[52rem] mx-auto sm:mt-20 sm:mb-40 scroll-mt-28 px-4 py-2"
     >
       <SectionHeading> About me</SectionHeading>
       <div className="mb-3">
@@ -31,7 +31,7 @@ const About = () => {
           keep growing and learning so I can be even better at what I do.
         </motion.p>
         <motion.div
-          className="max-w-[40%] mx-auto group"
+          className="max-w-[80%] sm:max-w-[40%] mx-auto group"
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.5 }}
