@@ -24,7 +24,7 @@ const About = () => {
           field. <br /> <br />
           I really enjoy tackling challenges and solving tricky problems. Every
           project is like a puzzle for me, a chance to use my skills and
-          creativity to make something even better than what people expect. I'm
+          creativity to make something even better than what people expect. I am
           always excited to dive into new projects and bring my best to the
           table. <br /> <br />
           The world of web design is always changing, and I love that! I want to
