@@ -4,7 +4,6 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
-// import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 
 const Contact = () => {
@@ -16,15 +15,11 @@ const Contact = () => {
       <SectionHeading>Contact me</SectionHeading>
       <div className="py-4 max-w-[80%] mx-auto">
         <div className="w-full flex flex-col gap-4 items-center justify-between sm:mx-auto">
-          <p className="max-w-[50%] mx-auto text-md sm:text-lg leading-relaxed sm:mb-4 dark:text-white/70">
+          <p className="w-full sm:max-w-[60%] mx-auto text-md sm:text-lg leading-relaxed mb-4 dark:text-white/70">
             I am looking forward to working on projects that need fresh ideas
             and high quality work. Let us make some amazing things together!
           </p>
           <div className="flex flex-col gap-4 items-start">
-            {/* <Link
-              href="mailto:sayeda.b@gmail.com"
-              className="text-lg font-bold  hover:scale-110  active:scale-105 transition dark:text-white/70"
-            ></Link> */}
             <div className="flex flex-row gap-4">
               <Link
                 href="mailto:sayeda.b@gmail.com"
