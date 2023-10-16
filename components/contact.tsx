@@ -9,7 +9,7 @@ import SectionHeading from "./section-heading";
 const Contact = () => {
   return (
     <section
-      className="shadow-md bg-gray-100 py-8 max-w-8xl w-full text-center mb-40 scroll-mt-28 dark:text-white dark:bg-gray-800"
+      className="shadow-md bg-gray-100 py-8 max-w-8xl w-full text-center mb-10 sm:mb-20 scroll-mt-28 dark:text-white dark:bg-gray-800"
       id="contact"
     >
       <SectionHeading>Contact me</SectionHeading>
