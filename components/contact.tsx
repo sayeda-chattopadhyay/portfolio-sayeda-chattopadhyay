@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="py-4 max-w-[80%] mx-auto">
         <div className="w-full flex flex-col gap-4 items-center justify-between sm:mx-auto">
           <p className=" max-w-[50%] mx-auto text-md sm:text-lg leading-relaxed sm:mb-4 dark:text-white/70">
-           I'm looking forward to working on projects that need fresh ideas and high-quality work. Let's make some amazing things together!
+           I am looking forward to working on projects that need fresh ideas and high-quality work. Lets make some amazing things together!
           </p>
           <div className="flex flex-col gap-4 items-start">
             <Link
