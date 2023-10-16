@@ -78,14 +78,14 @@ export default function Project({
         {isModalOpen && (
           <motion.div
             className="pt-4 pb-7 px-5 sm:px-10 sm:pt-10 max-w-[60rem] bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-white/20 rounded-b-lg mb-24"
-            animate={{ x: 0, opacity: 1 }}
             initial={{ x: 50, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
             <motion.h3
               className="text-2xl my-4 px-4 dark:text-white/80"
-              animate={{ x: 0, opacity: 1 }}
               initial={{ x: 50, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
             >
               Description
@@ -96,8 +96,8 @@ export default function Project({
                 <motion.p
                   key={index}
                   className="mb-8 px-4 text-md sm:text-lg leading-relaxed dark:text-white/70"
-                  animate={{ x: 0, opacity: 1 }}
                   initial={{ x: 50, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
                   transition={{ delay: 0.7, duration: 0.5 }}
                 >
                   {paragraph}
