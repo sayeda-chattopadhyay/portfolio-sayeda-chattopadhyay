@@ -13,10 +13,10 @@ const Introduction = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 3.5 }}
     >
-      <div className="px-8 py-4 shadow-sm w-full max-w-[100rem] flex flex-col gap-10 mt-10 items-center sm:flex-row sm:justify-between sm:gap-40 sm:mt-20">
+      <div className="px-8 py-4 shadow-sm w-full max-w-[100rem] flex flex-col  gap-14 mt-10 items-center sm:flex-row sm:justify-between sm:gap-40 sm:mt-20">
         {/* text */}
         <div className="flex flex-col gap-4 items-center sm:items-start">
-          <div className="">
+          <div>
             <h3 className="text-xl font-bold mb-2">
               <span>Hi</span> ! I am{" "}
               <span className="text-xl sm:text-3xl text-[#803363] dark:text-[#F9F1F5]">
@@ -35,7 +35,7 @@ const Introduction = () => {
           </div>
 
           <motion.div
-            className="px-5 py-3 mt-8 bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
+            className="px-4 py-2 sm:px-5 sm:py-3 mt-8  bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
             whileHover={{
               scale: 1.1,
               textShadow: "0px 0px 8px rgb(255,255,255)",
