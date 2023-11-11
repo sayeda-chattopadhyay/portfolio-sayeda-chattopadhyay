@@ -8,6 +8,7 @@ import { useRef } from "react";
 const Introduction = () => {
   return (
     <motion.section
+      id="home"
       className="mb-28 sm:mb-0 scroll-mt-[100rem]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
