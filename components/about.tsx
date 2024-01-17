@@ -37,7 +37,7 @@ const About = () => {
           transition={{ delay: 0.7, duration: 0.5 }}
         >
           <a
-            href="/sayedaChattopadhyay.pdf"
+            href="/sayeda_cv.pdf"
             download
             className="border-2 border-[#803363]/80 px-4 py-2 text-[#803363] font-bold rounded-lg flex items-center justify-center gap-2 outline-none focus:scale-110 hover:scale-110 group-hover:bg-[#803363] group-hover:text-white transition dark:text-white/80 dark:border-white/60  dark:group-hover:bg-white dark:group-hover:text-[#803363] "
           >
