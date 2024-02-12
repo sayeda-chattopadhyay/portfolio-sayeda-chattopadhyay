@@ -41,7 +41,7 @@ export const projectsData = [
     tags: ["JavaScript", "React", "Bootstrap", "styled-components", "Yup"],
     imageUrl: eCommerceWebsite,
     gitHubUrl: "https://github.com/sayeda-chattopadhyay/la-boutique",
-    liveUrl: "https://clinquant-haupia-8edecd.netlify.app/",
+    liveUrl: "https://la-boutique.netlify.app",
   },
   {
     title: "Holidaze",
