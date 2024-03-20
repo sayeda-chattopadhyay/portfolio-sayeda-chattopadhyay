@@ -54,16 +54,36 @@ export default function Project({
             <p className="my-4 text-md sm:text-lg leading-relaxed sm:mb-4 dark:text-white/70 ">
               {about}
             </p>
-            <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto max-w-full ">
-              {tags.map((tag, index) => (
-                <li
-                  className="px-2 py-1 text-[0.7rem] uppercase tracking-wider bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
-                  key={index}
-                >
-                  {tag}
-                </li>
-              ))}
-            </ul>
+            <div className="flex flex-wrap mt-4 gap-2 sm:mt-auto max-w-full">
+              <motion.a
+                href={gitHubUrl}
+                className="px-3 py-2 bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
+                animate={{ x: 0, opacity: 1 }}
+                initial={{ x: 50, opacity: 0 }}
+                transition={{ delay: 0.8, duration: 0.5 }}
+              >
+                Github Repo
+              </motion.a>
+              <motion.a
+                href={liveUrl}
+                className="px-3 py-2 bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
+                animate={{ x: 0, opacity: 1 }}
+                initial={{ x: 50, opacity: 0 }}
+                transition={{ delay: 0.9, duration: 0.6 }}
+              >
+                Live Demo
+              </motion.a>
+            </div>
           </div>
           {/* image */}
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10  sm:max-w-[50%] flex flex-col h-full ">
@@ -104,37 +124,16 @@ export default function Project({
                 </motion.p>
               </>
             ))}
-
-            <div className="flex gap-4 px-4 mb-4">
-              <motion.a
-                href={gitHubUrl}
-                className="px-3 py-2 bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
-                whileHover={{
-                  scale: 1.1,
-                  textShadow: "0px 0px 8px rgb(255,255,255)",
-                  boxShadow: "0px 0px 8px rgb(255,255,255)",
-                }}
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 50, opacity: 0 }}
-                transition={{ delay: 0.8, duration: 0.5 }}
-              >
-                Github Repo
-              </motion.a>
-              <motion.a
-                href={liveUrl}
-                className="px-3 py-2 bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
-                whileHover={{
-                  scale: 1.1,
-                  textShadow: "0px 0px 8px rgb(255,255,255)",
-                  boxShadow: "0px 0px 8px rgb(255,255,255)",
-                }}
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 50, opacity: 0 }}
-                transition={{ delay: 0.9, duration: 0.6 }}
-              >
-                Live Demo
-              </motion.a>
-            </div>
+            <ul className="flex gap-4 px-4 mb-4 ">
+              {tags.map((tag, index) => (
+                <li
+                  className="px-2 py-1 text-[0.7rem] uppercase tracking-wider bg-black/90 text-white border-gray/50 rounded-lg dark:border-white dark:text-white/70"
+                  key={index}
+                >
+                  {tag}
+                </li>
+              ))}
+            </ul>
           </motion.div>
         )}
       </motion.div>
