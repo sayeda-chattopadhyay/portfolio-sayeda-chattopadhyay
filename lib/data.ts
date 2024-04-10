@@ -68,17 +68,42 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
+export const skillsFrontend = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
-  "Git",
   "Tailwind",
   "Bootstrap",
+  "Styled-components",
   "Framer Motion",
+  "Restful API",
+  "Debugging & Testing",
+  "Version Control",
+] as const;
+
+export const skillsUx = [
+  "Design Thinking",
+  "User research",
+  "Information Architecture",
+  "Interaction Design",
+  "Visual design",
+  "Accessibility",
+  "Wireframing",
+  "Prototyping",
+  "Usability Testing",
   "Figma",
   "Adobe-xd",
+] as const;
+
+export const skillsSoft = [
+  "Communication & Collaboration",
+  "Adaptability",
+  "Creativity and Design Thinking",
+  "Time Management",
+  "Problem-Solving Abilities",
+  "Critical Thinking",
+  "Resilience",
 ] as const;
