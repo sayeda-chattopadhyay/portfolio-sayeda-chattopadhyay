@@ -22,14 +22,46 @@ const About = () => {
           journey in web design and development has equipped me with a robust
           skill set, and I am eager to further immerse myself in this dynamic
           field. <br /> <br />
-          I really enjoy tackling challenges and solving tricky problems. Every
+          {/* I really enjoy tackling challenges and solving tricky problems. Every
           project is like a puzzle for me, a chance to use my skills and
           creativity to make something even better than what people expect. I am
           always excited to dive into new projects and bring my best to the
           table. <br /> <br />
           The world of web design is always changing, and I love that! I want to
-          keep growing and learning so I can be even better at what I do.
+          keep growing and learning so I can be even better at what I do. */}
         </motion.p>
+        <div className="flex justify-between mb-8">
+          <div>
+            <h3 className="text-2xl font-semibold dark:text-white/80 mb-4">
+              My Education
+            </h3>
+            <ul>
+              <li className="text-lg">Bachelor in science</li>
+              <li className="text-lg">UX Design</li>
+              <li className="text-lg">Front-end development</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold dark:text-white/80 mb-4">
+              My Interests
+            </h3>
+            <ul>
+              <li className="text-lg">Coding</li>
+              <li className="text-lg">Design</li>
+              <li className="text-lg">Art & Craft</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold dark:text-white/80 mb-4">
+              My Hobbies
+            </h3>
+            <ul>
+              <li className="text-lg">Painting</li>
+              <li className="text-lg">Baking</li>
+              <li className="text-lg">Reading</li>
+            </ul>
+          </div>
+        </div>
         <motion.div
           className="max-w-[80%] sm:max-w-[40%] mx-auto group"
           initial={{ x: 50, opacity: 0 }}
