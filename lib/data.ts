@@ -52,7 +52,7 @@ export const projectsData = [
     tags: ["javascript", "React", "Taiwind", "Formik"],
     imageUrl: hotelWebsite,
     gitHubUrl: "https://github.com/sayeda-chattopadhyay/holidaze",
-    liveUrl: "https://ornate-flan-63ec17.netlify.app/",
+    liveUrl: "https://enjoy-holidaze.netlify.app/",
   },
   {
     title: "BidAbhi",
