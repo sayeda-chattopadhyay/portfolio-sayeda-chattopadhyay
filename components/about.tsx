@@ -62,7 +62,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <motion.div
+        {/* <motion.div
           className="max-w-[80%] sm:max-w-[40%] mx-auto group"
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -76,7 +76,7 @@ const About = () => {
             Download CV
             <HiDownload className="opacity-80 text-[#803363]font-bold  group-hover:translate-y-1 transition group-hover:text-white dark:group-hover:text-[#803363] " />
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.section>
   );
