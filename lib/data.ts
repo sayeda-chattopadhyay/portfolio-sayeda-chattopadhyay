@@ -10,24 +10,24 @@ import auctionWebsite from "@/public/auction.jpg";
 export const links = [
   {
     name: "Home",
-    hash: "#home",
+    path: "/",
   },
   {
     name: "About",
-    hash: "#about",
+    path: "/about",
   },
 
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
   {
     name: "Projects",
-    hash: "#projects",
+    path: "/projects",
   },
   {
     name: "Contact",
-    hash: "#contact",
+    path: "/contact",
   },
 ] as const;
 
