@@ -37,7 +37,7 @@ const Skills = () => {
             onClick={() => setActiveTab(tab)}
             className={`relative px-4 py-2 text-lg font-medium transition-colors ${
               activeTab === tab
-                ? "text-[#803363]"
+                ? "text-[#803363] dark:text-[#d4a0c0]"
                 : "text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
             }`}
           >
@@ -45,7 +45,7 @@ const Skills = () => {
             {activeTab === tab && (
               <motion.div
                 layoutId="activeTab"
-                className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#803363] rounded-full"
+                className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#803363] dark:bg-[#d4a0c0] rounded-full"
                 transition={{ type: "spring", stiffness: 380, damping: 30 }}
               />
             )}
@@ -99,7 +99,7 @@ const Skills = () => {
               <h3 className="text-lg font-semibold dark:text-white/90">
                 {item.title}
               </h3>
-              <p className="text-sm text-[#803363] font-medium mt-1">
+              <p className="text-sm text-[#803363] dark:text-[#d4a0c0] font-medium mt-1">
                 {item.company}
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
@@ -128,7 +128,7 @@ const Skills = () => {
               <h3 className="text-lg font-semibold dark:text-white/90">
                 {item.degree}
               </h3>
-              <p className="text-sm text-[#803363] font-medium mt-1">
+              <p className="text-sm text-[#803363] dark:text-[#d4a0c0] font-medium mt-1">
                 {item.institution}
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
