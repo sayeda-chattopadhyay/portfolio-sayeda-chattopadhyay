@@ -14,7 +14,7 @@ const Introduction = () => {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.3, duration: 0.5 }}
     >
-      <div className="px-8 py-4 shadow-sm w-full max-w-[100rem] flex flex-col  gap-14 mt-10 items-center sm:flex-row sm:justify-between sm:gap-40 sm:mt-20">
+      <div className="px-8 py-4 shadow-sm w-full max-w-[100rem] flex flex-col gap-14 my-12 items-center sm:flex-row sm:justify-between sm:gap-40 sm:mt-20">
         {/* text */}
         <div className="flex flex-col gap-4 items-center sm:items-start">
           <div>
@@ -25,28 +25,40 @@ const Introduction = () => {
               </span>
             </h3>
             <h1 className="text-2xl sm:text-5xl font-semibold mb-4 text-gray-750">
-              UX designer & Frontend Developer
+              Frontend Developer and UX designer
             </h1>
-            <p className="text-md sm:text-lg">
-              A lifelong learner in love with everything fancy.
-            </p>
-            <p className="text-md sm:text-lg">
-              Delighted to welcome you to my portfolio.
+            <p className="text-md sm:text-lg max-w-xl">
+              I bridge design and development to create intuitive user
+              experiences and responsive web applications using modern
+              technologies and user-centered thinking.
             </p>
           </div>
-
-          <motion.div
-            className="px-4 py-2 sm:px-5 sm:py-3 mt-8  bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
-            whileHover={{
-              scale: 1.1,
-              textShadow: "0px 0px 8px rgb(255,255,255)",
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
-            }}
-          >
-            <motion.a href="#projects" className="uppercase">
-              See my works
-            </motion.a>
-          </motion.div>
+          <div className="flex items-center gap-4">
+            <motion.div
+              className="px-4 py-2 sm:px-5 sm:py-3 mt-8  bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              <motion.a href="#projects" className="uppercase">
+                See my works
+              </motion.a>
+            </motion.div>
+            <motion.div
+              className="px-4 py-2 sm:px-5 sm:py-3 mt-8  bg-[#803363] text-white rounded-lg dark:border-[#803363] dark:bg-white/80 dark:text-gray-900"
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              <motion.a href="/about" className="uppercase">
+                About me
+              </motion.a>
+            </motion.div>
+          </div>
         </div>
         {/* image */}
         {/* <motion.div

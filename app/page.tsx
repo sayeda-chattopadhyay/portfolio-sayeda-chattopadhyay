@@ -1,15 +1,15 @@
-import Introduction from "@/components/introduction";
+import Introduction from "@/components/Introduction";
 
-import About from "@/components/about";
+// import About from "@/components/About";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
-import Contact from "@/components/contact";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center px-4">
+    <main className="flex flex-col items-center px-4 gap-4">
       <Introduction />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />

@@ -68,42 +68,80 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsFrontend = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React.js",
-  "Next.js",
-  "Tailwind",
-  "Bootstrap",
-  "Styled-components",
-  "Framer Motion",
-  "Restful API",
-  "Debugging & Testing",
-  "Version Control",
+export const skillsTabData = [
+  {
+    title: "Frontend",
+    items: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind",
+      "Bootstrap",
+      "Styled-components",
+      "Framer Motion",
+    ],
+  },
+  {
+    title: "Backend",
+    items: ["Node.js", "Express.js", "REST APIs", "Authentication"],
+  },
+  {
+    title: "Database",
+    items: ["MongoDB", "PostgreSQL", "Prisma", "Supabase"],
+  },
+  {
+    title: "Others",
+    items: [
+      "Git & GitHub",
+      "Figma",
+      "Debugging & Testing",
+      "Agile / Scrum",
+      "Accessibility",
+    ],
+  },
 ] as const;
 
-export const skillsUx = [
-  "Design Thinking",
-  "User research",
-  "Information Architecture",
-  "Interaction Design",
-  "Visual design",
-  "Accessibility",
-  "Wireframing",
-  "Prototyping",
-  "Usability Testing",
-  "Figma",
-  "Adobe-xd",
+export const experienceTabData = [
+  {
+    title: "Frontend Developer",
+    company: "Company Name",
+    date: "2024 — Present",
+    description:
+      "Built and maintained responsive web applications using React and Next.js.",
+  },
+  {
+    title: "Junior Developer",
+    company: "Company Name",
+    date: "2023 — 2024",
+    description:
+      "Collaborated with a team to deliver client-facing features and fix bugs.",
+  },
+  {
+    title: "Intern — Web Development",
+    company: "Company Name",
+    date: "2022 — 2023",
+    description:
+      "Assisted senior developers with UI components and learned modern web workflows.",
+  },
 ] as const;
 
-export const skillsSoft = [
-  "Communication & Collaboration",
-  "Adaptability",
-  "Creativity and Design Thinking",
-  "Time Management",
-  "Problem-Solving Abilities",
-  "Critical Thinking",
-  "Resilience",
+export const educationTabData = [
+  {
+    degree: "Front-End Development",
+    institution: "Noroff School of Technology",
+    date: "2022 — 2024",
+  },
+  {
+    degree: "UX Design",
+    institution: "Noroff School of Technology",
+    date: "2021 — 2022",
+  },
+  {
+    degree: "Bachelor's Degree",
+    institution: "University Name",
+    date: "2017 — 2020",
+  },
 ] as const;

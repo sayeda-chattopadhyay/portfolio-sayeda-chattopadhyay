@@ -1,6 +1,6 @@
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import ThemeSwitch from "@/components/theme-switch";
 import { Inter } from "next/font/google";
 
