@@ -2,11 +2,7 @@
 
 import { useState } from "react";
 import SectionHeading from "@/components/section-heading";
-import {
-  skillsTabData,
-  experienceTabData,
-  educationTabData,
-} from "@/lib/data";
+import { skillsTabData, experienceTabData, educationTabData } from "@/lib/data";
 import { motion } from "framer-motion";
 
 const tabs = ["Skills", "Experience", "Education"] as const;
@@ -30,10 +26,7 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState<Tab>("Skills");
 
   return (
-    <section
-      className="mb-28 max-w-[53rem] text-center sm:mb-40 scroll-mt-28"
-      id="skills"
-    >
+    <section className="mb-28 max-w-[53rem] text-center sm:mb-40 scroll-mt-28">
       <SectionHeading>Skills & Experience</SectionHeading>
 
       {/* Tab bar */}
@@ -63,21 +56,21 @@ const Skills = () => {
       {/* Tab content */}
       {activeTab === "Skills" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
-          {skillsTabData.map((card, cardIndex) => (
+          {skillsTabData.map((skill, skillIndex) => (
             <motion.div
-              key={card.title}
+              key={skill.title}
               className="bg-white border border-black/[0.1] rounded-xl p-6 dark:bg-white/10 dark:border-white/10"
               variants={animationVariants}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              custom={cardIndex}
+              custom={skillIndex}
             >
               <h3 className="text-lg font-semibold mb-3 dark:text-white/90">
-                {card.title}
+                {skill.title}
               </h3>
               <ul className="flex flex-wrap gap-2">
-                {card.items.map((item) => (
+                {skill.items.map((item) => (
                   <li
                     key={item}
                     className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full dark:bg-white/10 dark:text-white/80"
