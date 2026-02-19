@@ -106,42 +106,42 @@ export const skillsTabData = [
 
 export const experienceTabData = [
   {
-    title: "Frontend Developer",
-    company: "Company Name",
+    title: "Front-end Developer and UX Designer",
+    company: "Normi",
     date: "2024 — Present",
     description:
-      "Built and maintained responsive web applications using React and Next.js.",
+      "I contribute as a full-stack developer with a frontend specialization, delivering end-to-end features from intuitive user interfaces to API integration and data-layer implementation.",
   },
   {
-    title: "Junior Developer",
-    company: "Company Name",
+    title: "Frontend-utvikler & UX Designer",
+    company: "STEM-ABCS AS",
     date: "2023 — 2024",
     description:
-      "Collaborated with a team to deliver client-facing features and fix bugs.",
+      "Designed and developed web applications and delivered consulting services in web development. Performed accessibility evaluations to ensure websites were usable and inclusive for people with diverse abilities.",
   },
   {
-    title: "Intern — Web Development",
-    company: "Company Name",
-    date: "2022 — 2023",
+    title: "Operations & Technology Leadership ",
+    company: "HDFC Bank & ICICI Bank",
+    date: "2006 — 2012",
     description:
-      "Assisted senior developers with UI components and learned modern web workflows.",
+      "Developed strategies, set operational guidelines, and adjusted plans based on data and market insights.Reviewed and approved credit card applications in compliance with banking policies and procedures.",
   },
 ] as const;
 
 export const educationTabData = [
   {
     degree: "Front-End Development",
-    institution: "Noroff School of Technology",
-    date: "2022 — 2024",
+    institution: "Noroff School of technology and digital media, Norway",
+    date: "2021 — 2023",
   },
   {
     degree: "UX Design",
-    institution: "Noroff School of Technology",
-    date: "2021 — 2022",
+    institution: "Noroff School of technology and digital media, Norway",
+    date: "2020 — 2021",
   },
   {
-    degree: "Bachelor's Degree",
-    institution: "University Name",
-    date: "2017 — 2020",
+    degree: "Bachelor of Science Degree",
+    institution: "University of Calcutta, India",
+    date: "2000 — 2003",
   },
 ] as const;
